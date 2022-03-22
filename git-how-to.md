@@ -13,7 +13,6 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 - Ввести 
 ``
 eval "$(ssh-agent -s)"
-
 ssh-add /расположение ключа
 ``
 
